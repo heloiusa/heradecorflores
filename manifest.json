@@ -1,0 +1,17 @@
+{
+    "name": "Hera Decor Flores",
+    "short_name": "Hera Flores",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#d63384",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "imagens/favicon.ico",
+        "sizes": "48x48",
+        "type": "image/x-icon"
+      }
+    ]
+  }
+  

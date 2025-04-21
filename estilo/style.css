@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #F2F0EB;
+    --cor2: #BFAF9B;
+    --cor3: #734C29;
+    --cor4: #8C5E35;
+    --cor5: #592202;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: var(--cor2);
+    padding-bottom: 5px;
+    position: fixed;
+    
+} 
+main {
+    flex: 1;
+    padding-top: 75px; 
+}
+
+#titulo{
+    font-weight: bolder;
+}
+
+a {
+    color: var(--cor3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+nav{
+    background-color: var(--cor2);
+}
+
+h2{
+    color: var(--cor3);
+}
+
+.table-custom th{
+    color: var(--cor3);
+    background-color: var(--cor2);
+}
+
+footer{
+    background-color: var(--cor2);
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;         /* Preenche toda a largura do contêiner */
+    height: 400px;        /* Altura fixa para todas as imagens */
+    object-fit: cover;    /* Corta as bordas para manter o centro da imagem e não deformar */
+    border-radius: 12px;  /* Arredonda os cantos (opcional) */
+    object-fit: cover;
+    border-radius: 12px;
+  }
+.contato a,
+.contato p {
+  display: block;
+  margin-bottom: 2px;
+  line-height: 1.2;
+}
